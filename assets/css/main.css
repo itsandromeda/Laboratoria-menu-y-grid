@@ -322,6 +322,7 @@ section {
 
 .gallery-item {
     display: inline-block;
+    overflow: hidden;
 }
 
 figure {
@@ -369,4 +370,15 @@ figcaption span {
 
 .gallery-item:hover figcaption {
     background-color: rgba(247, 182, 23, 0.81);
+}
+
+.gallery-item img {  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.gallery-item:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
