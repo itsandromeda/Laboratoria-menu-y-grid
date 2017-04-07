@@ -9,6 +9,8 @@ body {
 
 header {
     background-color: #333;
+    font-family: 'Cutive Mono', monospace;
+    color: #FFF;
     height: 480px;
 }
 
@@ -273,11 +275,6 @@ nav.solid #logo .logo {
     50% {
         border-color: white;
     }
-}
-
-body {
-    font-family: 'Cutive Mono', monospace;
-    color: #FFF;
 }
 
 h1 {
