@@ -20,7 +20,7 @@ nav {
     right: 0;
     color: #fff;
     height: 80px;
-    z-index: 1000;
+    z-index: 1999;
     margin-top: 0;
     position: fixed;
     padding-top: 0px;
@@ -316,7 +316,6 @@ section {
 
 #student-list {
     margin: 50px auto;
-    padding-top: 5px;
     text-align: center;
 }
 
@@ -326,7 +325,7 @@ section {
 }
 
 figure {
-    margin: -4px 0;
+    margin: -2px 0;
     padding: 0;
     height: 300px;
     position: relative;
@@ -344,7 +343,7 @@ figcaption {
     font-size: 25px;
     color: #FFF;
     position: absolute;
-    z-index: 1999;
+    z-index: 1998;
     top: 0;
     right: 0;
     width: 300px;
