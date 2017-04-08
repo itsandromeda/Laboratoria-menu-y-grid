@@ -17,11 +17,10 @@ window.addEventListener("scroll", function () {
         document.getElementById("nav-header").style.opacity = 0;
     } else {
         document.getElementById('nav-background').style.display = "table";
-        document.getElementById("nav-header").classList.add("header-in");
+        document.getElementById("nav-background").classList.add("header-in");
         document.getElementById("nav-header").classList.add("solid");
         document.getElementById("nav-header").style.opacity = 1;
         if (currentScroll <= 3) {
-            document.getElementById("nav-header").classList.remove("solid");
             document.getElementById("nav-header").classList.remove("header-in");
         }
     }
@@ -207,12 +206,10 @@ function allImagesDisplay(path, name, i) {
     img.setAttribute("alt", name);
     img.setAttribute("id", 'img0' + i);
     figure.classList.add("gallery-item");
-    //parent.classList.add("gallery-item");
     nameTitle.appendChild(nameNode);
     figcaption.appendChild(nameTitle);
     figure.appendChild(img);
     figure.appendChild(figcaption);
-    //parent.appendChild(figure);
     display.appendChild(figure);
 }
 
