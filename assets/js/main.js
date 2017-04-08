@@ -195,7 +195,6 @@ var students = [{
 function allImagesDisplay(path, name, i) {
     'use strict';
     var display = document.getElementById('student-list'),
-        parent = document.createElement("div"),
         figure = document.createElement("figure"),
         figcaption = document.createElement("figcaption"),
         img = document.createElement("img"),
